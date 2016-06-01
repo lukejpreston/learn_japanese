@@ -17,9 +17,10 @@ banner_title: "Learn Japanese"
   <span id="mark" class="column one-third u-pull-right button button-incorrect icon icon-cross"></span>
 </div>
 <div class="columns twelve">
-  <span onclick="reveal()" class="button column one-third icon icon-search"><span class="button_breaker">REVEAL</span></span>
-  <span onclick="say()" class="button column one-third icon icon-volume-medium"><span class="button_breaker">LISTEN</span></span>
-  <span onclick="console.log('yeah')" class="button column one-third icon icon-spell-check"><span class="button_breaker">SHOW ALPHABET</span></span>
+  <span onclick="reveal()" class="button columns three icon icon-search"><span class="button_breaker">REVEAL</span></span>
+  <span onclick="say()" class="button columns three icon icon-volume-medium"><span class="button_breaker">LISTEN</span></span>
+  <span onclick="console.log('yeah')" class="button columns three icon icon-spell-check"><span class="button_breaker">KANA</span></span>
+  <span onclick="console.log('yeah')" class="button columns three icon icon-spell-check"><span class="button_breaker">KANJI</span></span>
 </div>
 <div class="columns twelve">
     <div class="column one-third">
@@ -33,6 +34,24 @@ banner_title: "Learn Japanese"
     <div class="column one-third">
       <input id="kanji" type="checkbox">
       <label for="kanji">KANJI</label>
+      <div class="columns twelve">
+        <select class="column one-half">
+          <option>from grade 1</option>
+          <option>from grade 2</option>
+          <option>from grade 3</option>
+          <option>from grade 4</option>
+          <option>from grade 5</option>
+          <option>from grade 6</option>
+        </select>
+        <select class="column one-half">
+          <option>to grade 1</option>
+          <option>to grade 2</option>
+          <option>to grade 3</option>
+          <option>to grade 4</option>
+          <option>to grade 5</option>
+          <option>to grade 6</option>
+        </select>
+      </div>
     </div>
 </div>
 <div id="instructions" class="columns twelve">
