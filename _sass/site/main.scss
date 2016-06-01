@@ -11,6 +11,29 @@
   float: left;
 }
 
+.alphabet {
+  border-radius: 4px;
+  position: absolute;
+  height: 100%;
+  background-color: darken($light-second, 10%);
+  box-shadow: 0 0 0 10000em rgba(0, 0, 0, 0.7);
+  overflow-y: hidden;
+  .table {
+    height: 65%;
+    overflow-y: scroll;
+    z-index: 3;
+  }
+  .head, .table {
+    button {
+      width: 32px;
+    }
+  }
+}
+
+.tabs {
+  padding: 1rem;
+}
+
 .character {
   padding: 1em;
   line-height: 0;

@@ -240,3 +240,11 @@ function toggleInstructions() {
     })
   }
 }
+
+function toggleAlphabet() {
+  var alphabet = dom.query('#alphabet')
+
+  dom.query('#alphabet').stylise({
+    display: alphabet.style.display === 'none' ? 'block' : 'none'
+  })
+}

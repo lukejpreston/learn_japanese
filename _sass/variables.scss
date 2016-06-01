@@ -7,6 +7,18 @@ $light-second: #FFFFFF;
 $font: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $buttons: (
+    focused: (
+      off: (
+        text: #FFFFFF,
+        background: $middle-first,
+        border: $middle-first
+      ),
+      on: (
+        text: #FFFFFF,
+        background: $middle-first,
+        border: $middle-first
+      )
+    ),
     correct: (
         off: (
             text: darkgreen,
