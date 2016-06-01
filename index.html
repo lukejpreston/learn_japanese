@@ -18,6 +18,18 @@ banner_title: "Learn Japanese"
   <span onclick="console.log('sound')" class="button column one-third icon icon-volume-medium"><span class="button_breaker">LISTEN</span></span>
   <span onclick="console.log('yeah')" class="button column one-third icon icon-spell-check"><span class="button_breaker">SHOW ALPHABET</span></span>
 </div>
+<div class="columns twelve">
+    <div class="column one-third">
+      <input  id="katakana" type="checkbox" checked>
+      <label for="katakana">KATAKANA</label>
+    </div>
+    <div class="column one-third">
+      <input id="hiragana" type="checkbox" checked><label for="hiragana">HIRAGANA</label>
+    </div>
+    <div class="column one-third">
+      <input id="kanji" type="checkbox"><label for="kanji">KANJI</label>
+    </div>
+</div>
 <div id="instructions" class="columns twelve">
   <span onclick="toggleInstructions()" class="button columns twelve icon icon-circle-down"><span class="button_breaker">INSTRUCTIONS</span></span>
   <p class="intro columns twelve" style="display: none;">

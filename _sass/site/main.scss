@@ -15,3 +15,22 @@
   font-size: 1.2rem;
   padding-left: 0.5rem;
 }
+
+
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label:before {
+  font-family: IcoMoon-Free;
+  display: inline-block;
+  letter-spacing: 1rem;
+}
+
+input[type=checkbox] + label:before {
+  content: "\ea53";
+}
+
+input[type=checkbox]:checked + label:before {
+  content: "\ea52";
+}
