@@ -167,6 +167,10 @@ function generate() {
   dom.query('#mark')
     .changeClass('icon-checkmark', 'icon-cross')
     .changeClass('button-correct', 'button-incorrect')
+
+  var input = dom.query('#input')
+  input.value = ''
+  input.focus()
 }
 
 function validate(word) {
