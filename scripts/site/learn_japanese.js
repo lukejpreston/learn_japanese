@@ -191,6 +191,7 @@ function validate(word) {
     dom.query('#mark')
       .changeClass('icon-cross', 'icon-checkmark')
       .changeClass('button-incorrect', 'button-correct')
+    reveal()
     setTimeout(function() {
       generate()
     }, 1000)
@@ -207,9 +208,9 @@ function reveal() {
 
 function say() {
   var vowelSounds = {
-    A: 'ah',
+    A: 'ahh',
     E: 'eh',
-    I: 'ee',
+    I: 'e',
     O: 'oh',
     u: 'uh',
     ' ': ''
