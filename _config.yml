@@ -1,0 +1,15 @@
+highlighter: rouge
+permalink: pretty
+title: "Learn Japanese"
+description: "Very simple way to learn how to read Japanese"
+color: "#660000"
+keywords: "develpment"
+twitter: "@lukejpreston"
+footer: {
+    left: "Learn Japanese",
+    right: "",
+    icons: [{href: "https://github.com/lukejpreston/learn_japanese", kind: "github"}]
+  }
+url: "http://lukejpreston.github.io/you_eye"
+email: "lukejpreston@gmail.com"
+owner: "Luke Preston"

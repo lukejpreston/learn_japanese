@@ -1,0 +1,34 @@
+$light-first: #000000;
+$dark-first: #660000;
+$middle-first: #777778;
+$dark-second: #A69279;
+$light-second: #FFFFFF;
+
+$font: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$buttons: (
+    correct: (
+        off: (
+            text: darkgreen,
+            background: green,
+            border: green
+        ),
+        on: (
+            text: darkgreen,
+            background: green,
+            border: green
+        )
+    ),
+    incorrect: (
+        off: (
+            text: darkred,
+            background: red,
+            border: red
+        ),
+        on: (
+            text: darkred,
+            background: red,
+            border: red
+        )
+    )
+);
