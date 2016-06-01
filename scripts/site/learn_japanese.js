@@ -153,9 +153,21 @@ window.alphabet = [
   {type: 'KATAKANA', row: 'V', col: 'O', code: '&#12538;'}
 ]
 
-function generate() {
+function getLetter() {
   var choice = Math.floor(Math.random() * alphabet.length)
   var letter = alphabet[choice]
+
+  var shouldBeKatakana = dom.query('#katakana').checked
+  var shouldBeHiragana = dom.query('#hiragana').checked
+
+  if(!shouldBeKatakana && !shouldBeHiragana) return letter
+  else if(!shouldBeKatakana && letter.type === 'KATAKANA') return getLetter()
+  else if(!shouldBeHiragana && letter.type === 'HIRAGANA') return getLetter()
+  else return letter
+}
+
+function generate() {
+  var letter = getLetter()
   dom.query('#character').innerHTML = letter.code
 
   var row = letter.row
