@@ -167,13 +167,13 @@ function getLetter() {
 }
 
 function generate() {
-  var letter = getLetter()
-  dom.query('#character').innerHTML = letter.code
+  window.letter = getLetter()
+  dom.query('#character').innerHTML = window.letter.code
 
-  var row = letter.row
-  if(letter.row === ' ') row = ''
-  var col = letter.col
-  if(letter.col === ' ') col = ''
+  var row = window.letter.row
+  if(window.letter.row === ' ') row = ''
+  var col = window.letter.col
+  if(window.letter.col === ' ') col = ''
   window.answer = row + col
 
   dom.query('#mark')
@@ -205,6 +205,20 @@ function reveal() {
   dom.query('#input').focus()
 }
 
+function say() {
+  var vowelSounds = {
+    A: 'ah',
+    E: 'eh',
+    I: 'ee',
+    O: 'oh',
+    u: 'uh',
+    ' ': ''
+  }
+
+  var sound = window.letter.row.toLowerCase() + vowelSounds[window.letter.col]
+  responsiveVoice.speak(sound, 'Japanese Female')
+}
+
 generate()
 
 function toggleInstructions() {
@@ -224,5 +238,4 @@ function toggleInstructions() {
       display: 'block'
     })
   }
-
 }

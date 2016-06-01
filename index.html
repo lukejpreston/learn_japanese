@@ -4,6 +4,8 @@ nav: "home"
 banner_src: "assets/site/flag_of_japan.svg"
 banner_title: "Learn Japanese"
 ---
+<script src="scripts/site/responsivevoice.js"></script>
+
 <div class="columns twelve">
   <button class="character u-full-width">
     <span id="character"></span>
@@ -16,7 +18,7 @@ banner_title: "Learn Japanese"
 </div>
 <div class="columns twelve">
   <span onclick="reveal()" class="button column one-third icon icon-search"><span class="button_breaker">REVEAL</span></span>
-  <span onclick="console.log('sound')" class="button column one-third icon icon-volume-medium"><span class="button_breaker">LISTEN</span></span>
+  <span onclick="say()" class="button column one-third icon icon-volume-medium"><span class="button_breaker">LISTEN</span></span>
   <span onclick="console.log('yeah')" class="button column one-third icon icon-spell-check"><span class="button_breaker">SHOW ALPHABET</span></span>
 </div>
 <div class="columns twelve">
@@ -44,6 +46,5 @@ banner_title: "Learn Japanese"
     It randomly chooses between HIRAGANA and KATAKANA<br/>
   </p>
 </div>
-
 
 <script src="scripts/site/learn_japanese.js"></script>
