@@ -11,6 +11,16 @@
   float: left;
 }
 
+.title {
+  width: 100%;
+  font-size: 1.7em;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
 .alphabet {
   border-radius: 4px;
   position: absolute;
@@ -32,6 +42,25 @@
 
 .tabs {
   padding: 1rem;
+}
+
+.kana__configuration div {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.kanji__configuration {
+  label, select, div {
+    display: inline-block;
+  }
+  select {
+    font-size: 0.8em;
+    height: 1.2em;
+    margin-left: 0.5rem;
+  }
+  .grade {
+    margin-left: 2rem;
+  }
 }
 
 .character {
