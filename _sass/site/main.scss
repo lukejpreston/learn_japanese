@@ -21,28 +21,28 @@ section {
   margin-bottom: 2rem;
 }
 
-.alphabet {
+.panel {
   border-radius: 4px;
   position: absolute;
   height: 100%;
   background-color: darken($light-second, 10%);
   box-shadow: 0 0 0 10000em rgba(0, 0, 0, 0.7);
   overflow-y: hidden;
-  .table {
-    height: 65%;
-    overflow-y: scroll;
-    z-index: 3;
+  .tabs, p, .title {
+    padding: 1rem;
   }
-  .head, .table {
-    button {
-      width: 32px;
-    }
+  p, .title {
+    text-align: center;
+  }
+  p, .title {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  p {
+    font-size: 1.2em;
   }
 }
 
-.tabs {
-  padding: 1rem;
-}
+
 
 .kana__configuration div {
   display: inline-block;

@@ -222,29 +222,10 @@ function say() {
 
 generate()
 
-function toggleInstructions() {
-  var open = dom.query('#instructions .button')
-  var intro = dom.query('#instructions .intro')
-  var isOpen = open.hasClass('icon-circle-up')
+function panel(name) {
+  var panel = dom.query('#' + name)
 
-  if(isOpen) {
-    open.changeClass('icon-circle-up', 'icon-circle-down')
-    intro.stylise({
-      display: 'none'
-    })
-  }
-  else {
-    open.changeClass('icon-circle-down', 'icon-circle-up')
-    intro.stylise({
-      display: 'block'
-    })
-  }
-}
-
-function toggleAlphabet() {
-  var alphabet = dom.query('#alphabet')
-
-  dom.query('#alphabet').stylise({
-    display: alphabet.style.display === 'none' ? 'block' : 'none'
+  panel.stylise({
+    display: panel.style.display === 'none' ? 'block' : 'none'
   })
 }
