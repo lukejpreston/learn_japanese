@@ -10,7 +10,13 @@
         <a href='#' onclick='closeCookies()' class="u-pull-right"><span class="icon icon-cancel-circle"></span></a>
     </div>
 </div>
-<script type="text/javascript" src="/scripts/libs/cookies.min.js"></script>
+
+{% if jekyll.environment == "dev" %}
+    <script type="text/javascript" src="/scripts/libs/cookies.min.js"></script>
+{% else %}
+    <script type="text/javascript" src="{{site.url}}/scripts/libs/cookies.min.js"></script>
+{% endif %}
+
 <script type="text/javascript">
 var MAX_NOTIFICATIONS = 2
 
