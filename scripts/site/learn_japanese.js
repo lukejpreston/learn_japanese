@@ -29,8 +29,15 @@ function generate() {
   if(window.letter.hasOwnProperty('translation')) {
     dom.query('#kanji_translation').innerHTML = window.letter.translation
     dom.query('#kanji_romanji').innerHTML = window.letter.romanji.join(', ')
-  } else
+    dom.query('#translation').stylise({
+      display: 'block'
+    })
+  } else {
     dom.query('#kana_romanji').innerHTML = window.letter.romanji
+    dom.query('#translation').stylise({
+      display: 'none'
+    })
+  }
 
   dom.query('#mark')
     .changeClass('icon-checkmark', 'icon-cross')
@@ -41,7 +48,11 @@ function generate() {
   input.focus()
 }
 
-function validate(word) {
+function validateRomanji(word) {
+
+}
+
+function validateTranslation(word) {
 
 }
 

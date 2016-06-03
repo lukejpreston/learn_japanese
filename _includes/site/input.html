@@ -1,0 +1,17 @@
+<section class="columns twelve row">
+  <span class="columns twelve title">INPUT</span>
+  <div class="row">
+    <label class="columns twelve">ROMANJI</label>
+    <div class="row">
+      <input id="input" class="column two-thirds u-pull-left" type="text" oninput="validateRomanji(this.value)"></input>
+      <span id="mark" class="column one-third u-pull-right button button-incorrect icon icon-cross"></span>
+    </div>
+  </div>
+  <div id="translation" class="row">
+    <label class="columns twelve">TRANSLATION</label>
+    <div class="row">
+      <input id="translation_input" class="column two-thirds u-pull-left" type="text" oninput="validateTranslation(this.value)"></input>
+      <span id="translation_mark" class="column one-third u-pull-right button button-incorrect icon icon-cross"></span>
+    </div>
+  </div>
+</section>
