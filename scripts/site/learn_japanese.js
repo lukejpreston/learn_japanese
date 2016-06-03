@@ -20,6 +20,17 @@ function getLetter() {
 
   if(letters.length === 0) letters = letters.concat(kana.hiragana)
 
+  var filteredLetters = letters.filter(function(letter) {
+    var code = letter.code.replace('&#', '').replace(';', '')
+    return Cookies.get(code) !== '1'
+  })
+  if(filteredLetters.length === letters.length) letters.forEach(function() {
+      Cookies.set(window.letter.code.replace('&#', '').replace(';', ''), 0, {
+        expires: Infinity
+      })
+    })
+  else letters = filteredLetters
+
   var number = Math.floor(Math.random() * letters.length)
   return letters[number]
 }
@@ -57,13 +68,17 @@ function generate() {
 }
 
 function success() {
-  if(window.romanjiCorrect && (window.translationCorrect || window.noTranslation))
-  reveal(function() {
-    window.romanjiCorrect = false
-    window.translationCorrect = false
-    window.noTranslation = false
-    generate()
-  })
+  if(window.romanjiCorrect && (window.translationCorrect || window.noTranslation)) {
+    Cookies.set(window.letter.code.replace('&#', '').replace(';', ''), 1, {
+        expires: Infinity
+    })
+    reveal(function() {
+      window.romanjiCorrect = false
+      window.translationCorrect = false
+      window.noTranslation = false
+      generate()
+    })
+  }
 }
 
 function validateRomanji(word) {
