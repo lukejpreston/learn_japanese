@@ -44,23 +44,9 @@ section {
 
 
 
-.kana__configuration div {
+.configuration div {
   display: inline-block;
   margin-right: 2rem;
-}
-
-.kanji__configuration {
-  label, select, div {
-    display: inline-block;
-  }
-  select {
-    font-size: 1em;
-    height: 1.4em;
-    margin-left: 0.5rem;
-  }
-  .grade {
-    margin-left: 2rem;
-  }
 }
 
 .character {
