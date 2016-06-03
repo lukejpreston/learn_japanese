@@ -7,7 +7,7 @@ keywords: "learn japanese"
 twitter: "@lukejpreston"
 footer: {
     left: "Learn Japanese",
-    right: "",
+    right: "<button onclick='showCookies()'>SHOW COOKIES</button>",
     icons: [{href: "https://github.com/lukejpreston/learn_japanese", kind: "github"}]
   }
 url: "http://lukejpreston.github.io/learn_japanese"

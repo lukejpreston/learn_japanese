@@ -92,3 +92,14 @@ input[type=checkbox] + label:before {
 input[type=checkbox]:checked + label:before {
   content: "\ea52";
 }
+
+.cookies {
+  padding: 1rem;
+  border: solid 1px;
+  border-radius: 4px;
+  background-color: $light-second;
+  color: $middle-first;
+  .icon {
+    color: $middle-first;
+  }
+}
