@@ -32,8 +32,6 @@ function getLetter() {
     })
   else letters = filteredLetters
 
-  console.log(letters.length)
-
   var number = Math.floor(Math.random() * letters.length)
   return letters[number]
 }
