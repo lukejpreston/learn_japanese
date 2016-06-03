@@ -1,7 +1,15 @@
 <section class="columns twelve row">
   <span class="columns twelve title">CHARACTER</span>
-  <button class="character u-full-width">
-    <span id="character"></span>
-    <span id="reveal"></span>
-  </button>
+  <div class="columns twelve character">
+    <div class="char">
+      <span id="character"></span>
+    </div>
+    <div id="kana_reveal" class="char" style="display: none;">
+      <span id="kana_romanji">B</span>
+    </div>
+    <div id="kanji_reveal" class="char" style="display: none;">
+      <span id="kanji_romanji" class="stack">C</span>
+      <span id="kanji_translation" class="stack">D</span>
+    </div>
+  </div>
 </section>

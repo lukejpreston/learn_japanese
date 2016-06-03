@@ -42,17 +42,25 @@ section {
   }
 }
 
-
-
 .configuration div {
   display: inline-block;
   margin-right: 2rem;
 }
 
 .character {
-  padding: 1em;
-  line-height: 0;
+  text-align: center;
+  background-color: $light-second;
+  color: $middle-first;
+  border: solid 1px;
+  border-radius: 4px;
   font-size: 4em;
+  .char {
+    display: inline-block;
+    .stack {
+      display: block;
+      font-size: 0.3em;
+    }
+  }
 }
 
 .intro {
