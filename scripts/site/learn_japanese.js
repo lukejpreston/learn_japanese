@@ -69,12 +69,12 @@ function generate() {
   translationInput.value = ''
   romanjiInput.focus()
 
-  say()
+  autoSay()
 }
 
 function success() {
   if(window.romanjiCorrect && (window.translationCorrect || window.noTranslation)) {
-    say()
+    autoSay()
     Cookies.set(window.letter.code.replace('&#', '').replace(';', ''), 1, {
         expires: Infinity
     })
@@ -149,6 +149,10 @@ function say() {
   msg.voice = vs[0]
   msg.text = String.fromCharCode(letter.code.replace('&#', '').replace(';', ''))
   window.speechSynthesis.speak(msg)
+}
+
+function autoSay() {
+  if(dom.query('#say').checked) say()
 }
 
 generate()
