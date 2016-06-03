@@ -24,8 +24,9 @@ function getLetter() {
     var code = letter.code.replace('&#', '').replace(';', '')
     return Cookies.get(code) !== '1'
   })
-  if(filteredLetters.length === letters.length) letters.forEach(function() {
-      Cookies.set(window.letter.code.replace('&#', '').replace(';', ''), 0, {
+  if(filteredLetters.length === letters.length) letters.forEach(function(letter) {
+      var code = letter.code.replace('&#', '').replace(';', '')
+      Cookies.set(code, 0, {
         expires: Infinity
       })
     })
