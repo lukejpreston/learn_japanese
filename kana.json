@@ -1,918 +1,918 @@
 {
-    "HIRAGANA": [
+    "hiragana": [
         {
             "row": " ",
-            "col": "A",
+            "col": "a",
             "code": "&#12354;",
-            "romanji": "A"
+            "romanji": "a"
         },
         {
             "row": " ",
-            "col": "I",
+            "col": "i",
             "code": "&#12356;",
-            "romanji": "I"
+            "romanji": "i"
         },
         {
             "row": " ",
-            "col": "U",
+            "col": "u",
             "code": "&#12358;",
-            "romanji": "U"
+            "romanji": "u"
         },
         {
             "row": " ",
-            "col": "E",
+            "col": "e",
             "code": "&#12360;",
-            "romanji": "E"
+            "romanji": "e"
         },
         {
             "row": " ",
-            "col": "O",
+            "col": "o",
             "code": "&#12362;",
-            "romanji": "O"
+            "romanji": "o"
         },
         {
-            "row": "K",
-            "col": "A",
+            "row": "k",
+            "col": "a",
             "code": "&#12363;",
-            "romanji": "KA"
+            "romanji": "ka"
         },
         {
-            "row": "G",
-            "col": "A",
+            "row": "g",
+            "col": "a",
             "code": "&#12364;",
-            "romanji": "GA"
+            "romanji": "ga"
         },
         {
-            "row": "K",
-            "col": "I",
+            "row": "k",
+            "col": "i",
             "code": "&#12365;",
-            "romanji": "KI"
+            "romanji": "ki"
         },
         {
-            "row": "G",
-            "col": "I",
+            "row": "g",
+            "col": "i",
             "code": "&#12366;",
-            "romanji": "GI"
+            "romanji": "gi"
         },
         {
-            "row": "K",
-            "col": "U",
+            "row": "k",
+            "col": "u",
             "code": "&#12367;",
-            "romanji": "KU"
+            "romanji": "ku"
         },
         {
-            "row": "G",
-            "col": "U",
+            "row": "g",
+            "col": "u",
             "code": "&#12368;",
-            "romanji": "GU"
+            "romanji": "gu"
         },
         {
-            "row": "K",
-            "col": "E",
+            "row": "k",
+            "col": "e",
             "code": "&#12369;",
-            "romanji": "KE"
+            "romanji": "ke"
         },
         {
-            "row": "G",
-            "col": "E",
+            "row": "g",
+            "col": "e",
             "code": "&#12370;",
-            "romanji": "GE"
+            "romanji": "ge"
         },
         {
-            "row": "K",
-            "col": "O",
+            "row": "k",
+            "col": "o",
             "code": "&#12371;",
-            "romanji": "KO"
+            "romanji": "ko"
         },
         {
-            "row": "G",
-            "col": "O",
+            "row": "g",
+            "col": "o",
             "code": "&#12372;",
-            "romanji": "GO"
+            "romanji": "go"
         },
         {
-            "row": "S",
-            "col": "A",
+            "row": "s",
+            "col": "a",
             "code": "&#12373;",
-            "romanji": "SA"
+            "romanji": "sa"
         },
         {
-            "row": "Z",
-            "col": "A",
+            "row": "z",
+            "col": "a",
             "code": "&#12374;",
-            "romanji": "ZA"
+            "romanji": "za"
         },
         {
-            "row": "S",
-            "col": "I",
+            "row": "s",
+            "col": "i",
             "code": "&#12375;",
-            "romanji": "SI"
+            "romanji": "si"
         },
         {
-            "row": "Z",
-            "col": "I",
+            "row": "z",
+            "col": "i",
             "code": "&#12376;",
-            "romanji": "ZI"
+            "romanji": "zi"
         },
         {
-            "row": "S",
-            "col": "U",
+            "row": "s",
+            "col": "u",
             "code": "&#12377;",
-            "romanji": "SU"
+            "romanji": "su"
         },
         {
-            "row": "Z",
-            "col": "U",
+            "row": "z",
+            "col": "u",
             "code": "&#12378;",
-            "romanji": "ZU"
+            "romanji": "zu"
         },
         {
-            "row": "S",
-            "col": "E",
+            "row": "s",
+            "col": "e",
             "code": "&#12379;",
-            "romanji": "SE"
+            "romanji": "se"
         },
         {
-            "row": "Z",
-            "col": "E",
+            "row": "z",
+            "col": "e",
             "code": "&#12380;",
-            "romanji": "ZE"
+            "romanji": "ze"
         },
         {
-            "row": "S",
-            "col": "O",
+            "row": "s",
+            "col": "o",
             "code": "&#12381;",
-            "romanji": "SO"
+            "romanji": "so"
         },
         {
-            "row": "Z",
-            "col": "O",
+            "row": "z",
+            "col": "o",
             "code": "&#12382;",
-            "romanji": "ZO"
+            "romanji": "zo"
         },
         {
-            "row": "T",
-            "col": "A",
+            "row": "t",
+            "col": "a",
             "code": "&#12383;",
-            "romanji": "TA"
+            "romanji": "ta"
         },
         {
-            "row": "D",
-            "col": "A",
+            "row": "d",
+            "col": "a",
             "code": "&#12384;",
-            "romanji": "DA"
+            "romanji": "da"
         },
         {
-            "row": "T",
-            "col": "I",
+            "row": "t",
+            "col": "i",
             "code": "&#12385;",
-            "romanji": "TI"
+            "romanji": "ti"
         },
         {
-            "row": "D",
-            "col": "I",
+            "row": "d",
+            "col": "i",
             "code": "&#12386;",
-            "romanji": "DI"
+            "romanji": "di"
         },
         {
-            "row": "T",
-            "col": "U",
+            "row": "t",
+            "col": "u",
             "code": "&#12388;",
-            "romanji": "TU"
+            "romanji": "tu"
         },
         {
-            "row": "D",
-            "col": "U",
+            "row": "d",
+            "col": "u",
             "code": "&#12389;",
-            "romanji": "DU"
+            "romanji": "du"
         },
         {
-            "row": "T",
-            "col": "E",
+            "row": "t",
+            "col": "e",
             "code": "&#12390;",
-            "romanji": "TE"
+            "romanji": "te"
         },
         {
-            "row": "D",
-            "col": "E",
+            "row": "d",
+            "col": "e",
             "code": "&#12391;",
-            "romanji": "DE"
+            "romanji": "de"
         },
         {
-            "row": "T",
-            "col": "O",
+            "row": "t",
+            "col": "o",
             "code": "&#12392;",
-            "romanji": "TO"
+            "romanji": "to"
         },
         {
-            "row": "D",
-            "col": "O",
+            "row": "d",
+            "col": "o",
             "code": "&#12393;",
-            "romanji": "DO"
+            "romanji": "do"
         },
         {
-            "row": "N",
-            "col": "A",
+            "row": "n",
+            "col": "a",
             "code": "&#12394;",
-            "romanji": "NA"
+            "romanji": "na"
         },
         {
-            "row": "N",
-            "col": "I",
+            "row": "n",
+            "col": "i",
             "code": "&#12395;",
-            "romanji": "NI"
+            "romanji": "ni"
         },
         {
-            "row": "N",
-            "col": "U",
+            "row": "n",
+            "col": "u",
             "code": "&#12396;",
-            "romanji": "NU"
+            "romanji": "nu"
         },
         {
-            "row": "N",
-            "col": "E",
+            "row": "n",
+            "col": "e",
             "code": "&#12397;",
-            "romanji": "NE"
+            "romanji": "ne"
         },
         {
-            "row": "N",
-            "col": "O",
+            "row": "n",
+            "col": "o",
             "code": "&#12398;",
-            "romanji": "NO"
+            "romanji": "no"
         },
         {
-            "row": "H",
-            "col": "A",
+            "row": "h",
+            "col": "a",
             "code": "&#12399;",
-            "romanji": "HA"
+            "romanji": "ha"
         },
         {
-            "row": "B",
-            "col": "A",
+            "row": "b",
+            "col": "a",
             "code": "&#12400;",
-            "romanji": "BA"
+            "romanji": "ba"
         },
         {
-            "row": "P",
-            "col": "A",
+            "row": "p",
+            "col": "a",
             "code": "&#12401;",
-            "romanji": "PA"
+            "romanji": "pa"
         },
         {
-            "row": "H",
-            "col": "I",
+            "row": "h",
+            "col": "i",
             "code": "&#12402;",
-            "romanji": "HI"
+            "romanji": "hi"
         },
         {
-            "row": "B",
-            "col": "I",
+            "row": "b",
+            "col": "i",
             "code": "&#12403;",
-            "romanji": "BI"
+            "romanji": "bi"
         },
         {
-            "row": "P",
-            "col": "I",
+            "row": "p",
+            "col": "i",
             "code": "&#12404;",
-            "romanji": "PI"
+            "romanji": "pi"
         },
         {
-            "row": "H",
-            "col": "U",
+            "row": "h",
+            "col": "u",
             "code": "&#12405;",
-            "romanji": "HU"
+            "romanji": "hu"
         },
         {
-            "row": "B",
-            "col": "U",
+            "row": "b",
+            "col": "u",
             "code": "&#12406;",
-            "romanji": "BU"
+            "romanji": "bu"
         },
         {
-            "row": "P",
-            "col": "U",
+            "row": "p",
+            "col": "u",
             "code": "&#12407;",
-            "romanji": "PU"
+            "romanji": "pu"
         },
         {
-            "row": "H",
-            "col": "E",
+            "row": "h",
+            "col": "e",
             "code": "&#12408;",
-            "romanji": "HE"
+            "romanji": "he"
         },
         {
-            "row": "B",
-            "col": "E",
+            "row": "b",
+            "col": "e",
             "code": "&#12409;",
-            "romanji": "BE"
+            "romanji": "be"
         },
         {
-            "row": "P",
-            "col": "E",
+            "row": "p",
+            "col": "e",
             "code": "&#12410;",
-            "romanji": "PE"
+            "romanji": "pe"
         },
         {
-            "row": "H",
-            "col": "O",
+            "row": "h",
+            "col": "o",
             "code": "&#12411;",
-            "romanji": "HO"
+            "romanji": "ho"
         },
         {
-            "row": "B",
-            "col": "O",
+            "row": "b",
+            "col": "o",
             "code": "&#12412;",
-            "romanji": "BO"
+            "romanji": "bo"
         },
         {
-            "row": "P",
-            "col": "O",
+            "row": "p",
+            "col": "o",
             "code": "&#12413;",
-            "romanji": "PO"
+            "romanji": "po"
         },
         {
-            "row": "M",
-            "col": "A",
+            "row": "m",
+            "col": "a",
             "code": "&#12414;",
-            "romanji": "MA"
+            "romanji": "ma"
         },
         {
-            "row": "M",
-            "col": "I",
+            "row": "m",
+            "col": "i",
             "code": "&#12415;",
-            "romanji": "MI"
+            "romanji": "mi"
         },
         {
-            "row": "M",
-            "col": "U",
+            "row": "m",
+            "col": "u",
             "code": "&#12416;",
-            "romanji": "MU"
+            "romanji": "mu"
         },
         {
-            "row": "M",
-            "col": "E",
+            "row": "m",
+            "col": "e",
             "code": "&#12417;",
-            "romanji": "ME"
+            "romanji": "me"
         },
         {
-            "row": "M",
-            "col": "O",
+            "row": "m",
+            "col": "o",
             "code": "&#12418;",
-            "romanji": "MO"
+            "romanji": "mo"
         },
         {
-            "row": "Y",
-            "col": "A",
+            "row": "y",
+            "col": "a",
             "code": "&#12420;",
-            "romanji": "YA"
+            "romanji": "ya"
         },
         {
-            "row": "Y",
-            "col": "U",
+            "row": "y",
+            "col": "u",
             "code": "&#12422;",
-            "romanji": "YU"
+            "romanji": "yu"
         },
         {
-            "row": "Y",
-            "col": "O",
+            "row": "y",
+            "col": "o",
             "code": "&#12424;",
-            "romanji": "YO"
+            "romanji": "yo"
         },
         {
-            "row": "R",
-            "col": "A",
+            "row": "r",
+            "col": "a",
             "code": "&#12425;",
-            "romanji": "RA"
+            "romanji": "ra"
         },
         {
-            "row": "R",
-            "col": "I",
+            "row": "r",
+            "col": "i",
             "code": "&#12426;",
-            "romanji": "RI"
+            "romanji": "ri"
         },
         {
-            "row": "R",
-            "col": "U",
+            "row": "r",
+            "col": "u",
             "code": "&#12427;",
-            "romanji": "RU"
+            "romanji": "ru"
         },
         {
-            "row": "R",
-            "col": "E",
+            "row": "r",
+            "col": "e",
             "code": "&#12428;",
-            "romanji": "RE"
+            "romanji": "re"
         },
         {
-            "row": "R",
-            "col": "O",
+            "row": "r",
+            "col": "o",
             "code": "&#12429;",
-            "romanji": "RO"
+            "romanji": "ro"
         },
         {
-            "row": "W",
-            "col": "A",
+            "row": "w",
+            "col": "a",
             "code": "&#12431;",
-            "romanji": "WA"
+            "romanji": "wa"
         },
         {
-            "row": "W",
-            "col": "I",
+            "row": "w",
+            "col": "i",
             "code": "&#12432;",
-            "romanji": "WI"
+            "romanji": "wi"
         },
         {
-            "row": "W",
-            "col": "E",
+            "row": "w",
+            "col": "e",
             "code": "&#12433;",
-            "romanji": "WE"
+            "romanji": "we"
         },
         {
-            "row": "W",
-            "col": "O",
+            "row": "w",
+            "col": "o",
             "code": "&#12434;",
-            "romanji": "WO"
+            "romanji": "wo"
         },
         {
-            "row": "N",
+            "row": "n",
             "col": " ",
             "code": "&#12435;",
-            "romanji": "N"
+            "romanji": "n"
         },
         {
-            "row": "V",
-            "col": "U",
+            "row": "v",
+            "col": "u",
             "code": "&#12436;",
-            "romanji": "VU"
+            "romanji": "vu"
         }
     ],
-    "KATAKANA": [
+    "katakana": [
         {
             "row": " ",
-            "col": "A",
+            "col": "a",
             "code": "&#12450;",
-            "romanji": "A"
+            "romanji": "a"
         },
         {
             "row": " ",
-            "col": "I",
+            "col": "i",
             "code": "&#12452;",
-            "romanji": "I"
+            "romanji": "i"
         },
         {
             "row": " ",
-            "col": "U",
+            "col": "u",
             "code": "&#12454;",
-            "romanji": "U"
+            "romanji": "u"
         },
         {
             "row": " ",
-            "col": "E",
+            "col": "e",
             "code": "&#12456;",
-            "romanji": "E"
+            "romanji": "e"
         },
         {
             "row": " ",
-            "col": "O",
+            "col": "o",
             "code": "&#12458;",
-            "romanji": "O"
+            "romanji": "o"
         },
         {
-            "row": "K",
-            "col": "A",
+            "row": "k",
+            "col": "a",
             "code": "&#12459;",
-            "romanji": "KA"
+            "romanji": "ka"
         },
         {
-            "row": "G",
-            "col": "A",
+            "row": "g",
+            "col": "a",
             "code": "&#12460;",
-            "romanji": "GA"
+            "romanji": "ga"
         },
         {
-            "row": "K",
-            "col": "I",
+            "row": "k",
+            "col": "i",
             "code": "&#12461;",
-            "romanji": "KI"
+            "romanji": "ki"
         },
         {
-            "row": "G",
-            "col": "I",
+            "row": "g",
+            "col": "i",
             "code": "&#12462;",
-            "romanji": "GI"
+            "romanji": "gi"
         },
         {
-            "row": "K",
-            "col": "U",
+            "row": "k",
+            "col": "u",
             "code": "&#12463;",
-            "romanji": "KU"
+            "romanji": "ku"
         },
         {
-            "row": "G",
-            "col": "U",
+            "row": "g",
+            "col": "u",
             "code": "&#12464;",
-            "romanji": "GU"
+            "romanji": "gu"
         },
         {
-            "row": "K",
-            "col": "E",
+            "row": "k",
+            "col": "e",
             "code": "&#12465;",
-            "romanji": "KE"
+            "romanji": "ke"
         },
         {
-            "row": "G",
-            "col": "E",
+            "row": "g",
+            "col": "e",
             "code": "&#12466;",
-            "romanji": "GE"
+            "romanji": "ge"
         },
         {
-            "row": "K",
-            "col": "O",
+            "row": "k",
+            "col": "o",
             "code": "&#12467;",
-            "romanji": "KO"
+            "romanji": "ko"
         },
         {
-            "row": "G",
-            "col": "O",
+            "row": "g",
+            "col": "o",
             "code": "&#12468;",
-            "romanji": "GO"
+            "romanji": "go"
         },
         {
-            "row": "S",
-            "col": "A",
+            "row": "s",
+            "col": "a",
             "code": "&#12469;",
-            "romanji": "SA"
+            "romanji": "sa"
         },
         {
-            "row": "Z",
-            "col": "A",
+            "row": "z",
+            "col": "a",
             "code": "&#12470;",
-            "romanji": "ZA"
+            "romanji": "za"
         },
         {
-            "row": "S",
-            "col": "I",
+            "row": "s",
+            "col": "i",
             "code": "&#12471;",
-            "romanji": "SI"
+            "romanji": "si"
         },
         {
-            "row": "Z",
-            "col": "I",
+            "row": "z",
+            "col": "i",
             "code": "&#12472;",
-            "romanji": "ZI"
+            "romanji": "zi"
         },
         {
-            "row": "S",
-            "col": "U",
+            "row": "s",
+            "col": "u",
             "code": "&#12473;",
-            "romanji": "SU"
+            "romanji": "su"
         },
         {
-            "row": "Z",
-            "col": "U",
+            "row": "z",
+            "col": "u",
             "code": "&#12474;",
-            "romanji": "ZU"
+            "romanji": "zu"
         },
         {
-            "row": "S",
-            "col": "E",
+            "row": "s",
+            "col": "e",
             "code": "&#12475;",
-            "romanji": "SE"
+            "romanji": "se"
         },
         {
-            "row": "Z",
-            "col": "E",
+            "row": "z",
+            "col": "e",
             "code": "&#12476;",
-            "romanji": "ZE"
+            "romanji": "ze"
         },
         {
-            "row": "S",
-            "col": "O",
+            "row": "s",
+            "col": "o",
             "code": "&#12477;",
-            "romanji": "SO"
+            "romanji": "so"
         },
         {
-            "row": "Z",
-            "col": "O",
+            "row": "z",
+            "col": "o",
             "code": "&#12478;",
-            "romanji": "ZO"
+            "romanji": "zo"
         },
         {
-            "row": "T",
-            "col": "A",
+            "row": "t",
+            "col": "a",
             "code": "&#12479;",
-            "romanji": "TA"
+            "romanji": "ta"
         },
         {
-            "row": "D",
-            "col": "A",
+            "row": "d",
+            "col": "a",
             "code": "&#12480;",
-            "romanji": "DA"
+            "romanji": "da"
         },
         {
-            "row": "T",
-            "col": "I",
+            "row": "t",
+            "col": "i",
             "code": "&#12481;",
-            "romanji": "TI"
+            "romanji": "ti"
         },
         {
-            "row": "D",
-            "col": "I",
+            "row": "d",
+            "col": "i",
             "code": "&#12482;",
-            "romanji": "DI"
+            "romanji": "di"
         },
         {
-            "row": "T",
-            "col": "U",
+            "row": "t",
+            "col": "u",
             "code": "&#12484;",
-            "romanji": "TU"
+            "romanji": "tu"
         },
         {
-            "row": "D",
-            "col": "U",
+            "row": "d",
+            "col": "u",
             "code": "&#12485;",
-            "romanji": "DU"
+            "romanji": "du"
         },
         {
-            "row": "T",
-            "col": "E",
+            "row": "t",
+            "col": "e",
             "code": "&#12486;",
-            "romanji": "TE"
+            "romanji": "te"
         },
         {
-            "row": "D",
-            "col": "E",
+            "row": "d",
+            "col": "e",
             "code": "&#12487;",
-            "romanji": "DE"
+            "romanji": "de"
         },
         {
-            "row": "T",
-            "col": "O",
+            "row": "t",
+            "col": "o",
             "code": "&#12488;",
-            "romanji": "TO"
+            "romanji": "to"
         },
         {
-            "row": "D",
-            "col": "O",
+            "row": "d",
+            "col": "o",
             "code": "&#12489;",
-            "romanji": "DO"
+            "romanji": "do"
         },
         {
-            "row": "N",
-            "col": "A",
+            "row": "n",
+            "col": "a",
             "code": "&#12490;",
-            "romanji": "NA"
+            "romanji": "na"
         },
         {
-            "row": "N",
-            "col": "I",
+            "row": "n",
+            "col": "i",
             "code": "&#12491;",
-            "romanji": "NI"
+            "romanji": "ni"
         },
         {
-            "row": "N",
-            "col": "U",
+            "row": "n",
+            "col": "u",
             "code": "&#12492;",
-            "romanji": "NU"
+            "romanji": "nu"
         },
         {
-            "row": "N",
-            "col": "E",
+            "row": "n",
+            "col": "e",
             "code": "&#12493;",
-            "romanji": "NE"
+            "romanji": "ne"
         },
         {
-            "row": "N",
-            "col": "O",
+            "row": "n",
+            "col": "o",
             "code": "&#12494;",
-            "romanji": "NO"
+            "romanji": "no"
         },
         {
-            "row": "H",
-            "col": "A",
+            "row": "h",
+            "col": "a",
             "code": "&#12495;",
-            "romanji": "HA"
+            "romanji": "ha"
         },
         {
-            "row": "B",
-            "col": "A",
+            "row": "b",
+            "col": "a",
             "code": "&#12496;",
-            "romanji": "BA"
+            "romanji": "ba"
         },
         {
-            "row": "P",
-            "col": "A",
+            "row": "p",
+            "col": "a",
             "code": "&#12497;",
-            "romanji": "PA"
+            "romanji": "pa"
         },
         {
-            "row": "H",
-            "col": "I",
+            "row": "h",
+            "col": "i",
             "code": "&#12498;",
-            "romanji": "HI"
+            "romanji": "hi"
         },
         {
-            "row": "B",
-            "col": "I",
+            "row": "b",
+            "col": "i",
             "code": "&#12499;",
-            "romanji": "BI"
+            "romanji": "bi"
         },
         {
-            "row": "P",
-            "col": "I",
+            "row": "p",
+            "col": "i",
             "code": "&#12500;",
-            "romanji": "PI"
+            "romanji": "pi"
         },
         {
-            "row": "H",
-            "col": "U",
+            "row": "h",
+            "col": "u",
             "code": "&#12501;",
-            "romanji": "HU"
+            "romanji": "hu"
         },
         {
-            "row": "B",
-            "col": "U",
+            "row": "b",
+            "col": "u",
             "code": "&#12502;",
-            "romanji": "BU"
+            "romanji": "bu"
         },
         {
-            "row": "P",
-            "col": "U",
+            "row": "p",
+            "col": "u",
             "code": "&#12503;",
-            "romanji": "PU"
+            "romanji": "pu"
         },
         {
-            "row": "H",
-            "col": "E",
+            "row": "h",
+            "col": "e",
             "code": "&#12504;",
-            "romanji": "HE"
+            "romanji": "he"
         },
         {
-            "row": "B",
-            "col": "E",
+            "row": "b",
+            "col": "e",
             "code": "&#12505;",
-            "romanji": "BE"
+            "romanji": "be"
         },
         {
-            "row": "P",
-            "col": "E",
+            "row": "p",
+            "col": "e",
             "code": "&#12506;",
-            "romanji": "PE"
+            "romanji": "pe"
         },
         {
-            "row": "H",
-            "col": "O",
+            "row": "h",
+            "col": "o",
             "code": "&#12507;",
-            "romanji": "HO"
+            "romanji": "ho"
         },
         {
-            "row": "B",
-            "col": "O",
+            "row": "b",
+            "col": "o",
             "code": "&#12508;",
-            "romanji": "BO"
+            "romanji": "bo"
         },
         {
-            "row": "P",
-            "col": "O",
+            "row": "p",
+            "col": "o",
             "code": "&#12509;",
-            "romanji": "PO"
+            "romanji": "po"
         },
         {
-            "row": "M",
-            "col": "A",
+            "row": "m",
+            "col": "a",
             "code": "&#12510;",
-            "romanji": "MA"
+            "romanji": "ma"
         },
         {
-            "row": "M",
-            "col": "I",
+            "row": "m",
+            "col": "i",
             "code": "&#12511;",
-            "romanji": "MI"
+            "romanji": "mi"
         },
         {
-            "row": "M",
-            "col": "U",
+            "row": "m",
+            "col": "u",
             "code": "&#12512;",
-            "romanji": "MU"
+            "romanji": "mu"
         },
         {
-            "row": "M",
-            "col": "E",
+            "row": "m",
+            "col": "e",
             "code": "&#12513;",
-            "romanji": "ME"
+            "romanji": "me"
         },
         {
-            "row": "M",
-            "col": "O",
+            "row": "m",
+            "col": "o",
             "code": "&#12514;",
-            "romanji": "MO"
+            "romanji": "mo"
         },
         {
-            "row": "Y",
-            "col": "A",
+            "row": "y",
+            "col": "a",
             "code": "&#12516;",
-            "romanji": "YA"
+            "romanji": "ya"
         },
         {
-            "row": "Y",
-            "col": "U",
+            "row": "y",
+            "col": "u",
             "code": "&#12518;",
-            "romanji": "YU"
+            "romanji": "yu"
         },
         {
-            "row": "Y",
-            "col": "O",
+            "row": "y",
+            "col": "o",
             "code": "&#12520;",
-            "romanji": "YO"
+            "romanji": "yo"
         },
         {
-            "row": "R",
-            "col": "A",
+            "row": "r",
+            "col": "a",
             "code": "&#12521;",
-            "romanji": "RA"
+            "romanji": "ra"
         },
         {
-            "row": "R",
-            "col": "I",
+            "row": "r",
+            "col": "i",
             "code": "&#12522;",
-            "romanji": "RI"
+            "romanji": "ri"
         },
         {
-            "row": "R",
-            "col": "U",
+            "row": "r",
+            "col": "u",
             "code": "&#12523;",
-            "romanji": "RU"
+            "romanji": "ru"
         },
         {
-            "row": "R",
-            "col": "E",
+            "row": "r",
+            "col": "e",
             "code": "&#12524;",
-            "romanji": "RE"
+            "romanji": "re"
         },
         {
-            "row": "R",
-            "col": "O",
+            "row": "r",
+            "col": "o",
             "code": "&#12525;",
-            "romanji": "RO"
+            "romanji": "ro"
         },
         {
-            "row": "W",
-            "col": "A",
+            "row": "w",
+            "col": "a",
             "code": "&#12527;",
-            "romanji": "WA"
+            "romanji": "wa"
         },
         {
-            "row": "W",
-            "col": "I",
+            "row": "w",
+            "col": "i",
             "code": "&#12528;",
-            "romanji": "WI"
+            "romanji": "wi"
         },
         {
-            "row": "W",
-            "col": "E",
+            "row": "w",
+            "col": "e",
             "code": "&#12529;",
-            "romanji": "WE"
+            "romanji": "we"
         },
         {
-            "row": "W",
-            "col": "O",
+            "row": "w",
+            "col": "o",
             "code": "&#12530;",
-            "romanji": "WO"
+            "romanji": "wo"
         },
         {
-            "row": "N",
+            "row": "n",
             "col": " ",
             "code": "&#12531;",
-            "romanji": "N"
+            "romanji": "n"
         },
         {
-            "row": "V",
-            "col": "U",
+            "row": "v",
+            "col": "u",
             "code": "&#12532;",
-            "romanji": "VU"
+            "romanji": "vu"
         },
         {
-            "row": "V",
-            "col": "A",
+            "row": "v",
+            "col": "a",
             "code": "&#12535;",
-            "romanji": "VA"
+            "romanji": "va"
         },
         {
-            "row": "V",
-            "col": "I",
+            "row": "v",
+            "col": "i",
             "code": "&#12536;",
-            "romanji": "VI"
+            "romanji": "vi"
         },
         {
-            "row": "V",
-            "col": "E",
+            "row": "v",
+            "col": "e",
             "code": "&#12537;",
-            "romanji": "VE"
+            "romanji": "ve"
         },
         {
-            "row": "V",
-            "col": "O",
+            "row": "v",
+            "col": "o",
             "code": "&#12538;",
-            "romanji": "VO"
+            "romanji": "vo"
         }
     ]
 }
