@@ -2,14 +2,83 @@
   <div class="columns twelve close">
     <span onclick="panel('kana')" class="button icon icon-cross"><span class="button_breaker">CLOSE</span></span>
   </div>
+  <span class="title">KANA</span>
   <div class="columns twelve">
-    <div>
-      <input id="hiragana_kana" type="checkbox">
-      <label for="hiragana_kana">HIRAGANA</label>
+    <div class="filter">
+      <input id="hiragana_filter" onchange="updateKana()" type="checkbox" checked>
+      <label for="hiragana_filter">HIRAGANA</label>
     </div>
-    <div>
-      <input id="katakana_kana" type="checkbox">
-      <label for="katakana_kana">KATAKANA</label>
+    <div class="filter">
+      <input id="katakana_filter" onchange="updateKana()" type="checkbox" checked>
+      <label for="katakana_filter">KATAKANA</label>
+    </div>
+  </div>
+  <div>
+    <div class="row head">
+      <div class="button cell" style="visibility: hidden;">
+        <span>_</span>
+      </div>
+      <div class="button cell">
+        <span>B</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col button u-pull-left">
+        <span>B</span>
+      </div>
+      <div class="cell">
+        <div class="char kana" style="display: none;">
+          <span class="stack button">C</span>
+          <span class="stack button">D</span>
+        </div>
+        <div class="char hiragana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+        <div class="char katakana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="char kana" style="display: none;">
+          <span class="stack button">C</span>
+          <span class="stack button">D</span>
+        </div>
+        <div class="char hiragana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+        <div class="char katakana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col button u-pull-left">
+        <span>B</span>
+      </div>
+      <div class="cell">
+        <div class="char kana" style="display: none;">
+          <span class="stack button">C</span>
+          <span class="stack button">D</span>
+        </div>
+        <div class="char hiragana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+        <div class="char katakana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="char kana" style="display: none;">
+          <span class="stack button">C</span>
+          <span class="stack button">D</span>
+        </div>
+        <div class="char hiragana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+        <div class="char katakana" style="display: none;">
+          <span class="button">D</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>

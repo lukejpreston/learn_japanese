@@ -40,6 +40,24 @@ section {
   p {
     font-size: 1.2em;
   }
+  .filter {
+    display: inline-block;
+    color: $middle-first;
+    margin-left: 1rem;
+  }
+
+  .char .stack {
+    line-height: 18px;
+    height: 18px;
+    margin: 0;
+
+    margin-bottom: 1px;
+  }
+
+  .char {
+    float: left;
+    margin-left: 4px;
+  }
 }
 
 .configuration div {
@@ -54,13 +72,17 @@ section {
   border: solid 1px;
   border-radius: 4px;
   font-size: 4em;
-  .char {
-    display: inline-block;
-    .stack {
-      display: block;
-      font-size: 0.3em;
-    }
+  .stack {
+    font-size: 0.3em;
   }
+}
+
+.char {
+  display: inline-block;
+}
+
+.stack {
+  display: block;
 }
 
 .intro {
