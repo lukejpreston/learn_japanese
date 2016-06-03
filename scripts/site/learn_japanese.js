@@ -18,6 +18,8 @@ function getLetter() {
   if(grade_5) letters = letters.concat(kanji[4])
   if(grade_6) letters = letters.concat(kanji[5])
 
+  if(letters.length === 0) letters = letters.concat(kana.hiragana)
+
   var number = Math.floor(Math.random() * letters.length)
   return letters[number]
 }
@@ -109,6 +111,7 @@ function reveal(callback) {
     revealChar.stylise({
       display: 'none'
     })
+    dom.query('#romanji_input').focus()
     callback()
   }, 1000)
 }
