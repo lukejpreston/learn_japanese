@@ -77,12 +77,12 @@ function ye_dom() {
 
     function stylise(element, styles) {
         if (typeof styles === 'string')
-            element.style = styles
+            element.setAttribute('style', styles)
         else {
             styles = styles || {}
-            element.style = Object.keys(styles).map(function(key) {
+            element.setAttribute('style', Object.keys(styles).map(function(key) {
                 return key.replace(/_/g, '-') + ': ' + styles[key] + ';'
-            }).join(' ')
+            }).join(' '))
         }
         return element
     }

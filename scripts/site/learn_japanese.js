@@ -66,10 +66,13 @@ function generate() {
   var translationInput = dom.query('#translation_input')
   translationInput.value = ''
   romanjiInput.focus()
+
+  say()
 }
 
 function success() {
   if(window.romanjiCorrect && (window.translationCorrect || window.noTranslation)) {
+    say()
     Cookies.set(window.letter.code.replace('&#', '').replace(';', ''), 1, {
         expires: Infinity
     })
@@ -132,8 +135,18 @@ function reveal(callback) {
   }, 1000)
 }
 
-function say() {
+window.speechSynthesis.getVoices();
 
+function say() {
+  var msg = new SpeechSynthesisUtterance();
+  window.speechSynthesis.getVoices();
+  var voices = window.speechSynthesis.getVoices();
+  var vs = voices.filter(function(voice) {
+    return voice.lang === 'ja-JP'
+  })
+  msg.voice = vs[0]
+  msg.text = String.fromCharCode(letter.code.replace('&#', '').replace(';', ''))
+  window.speechSynthesis.speak(msg)
 }
 
 generate()
