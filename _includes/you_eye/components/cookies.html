@@ -1,6 +1,12 @@
-<div class="hidden cookies u-full-width">
+<div class="cookies u-full-width">
     <div class="container">
-        <span class="message">{{site.cookies_message}}By using this site you consent to using our cookies</span>
+        <span class="message">
+          {% if {{site.cookies_message}} %}
+            {{site.cookies_message}}
+          {% else %}
+            By using this site you consent to using our cookies
+          {% endif %}
+        </span>
         <a href='#' onclick='closeCookies()' class="u-pull-right"><span class="icon icon-cancel-circle"></span></a>
     </div>
 </div>
@@ -20,11 +26,17 @@ Cookies.set('notified', notified + 1, {
 })
 
 function showCookies() {
-    dom.query('.cookies').removeClass('hidden')
+    dom.query('.cookies')
+      .stylise({
+        display: 'block'
+      })
 }
 
 function closeCookies() {
-    dom.query('.cookies').addClass('hidden')
+  dom.query('.cookies')
+    .stylise({
+      display: 'none'
+    })
     Cookies.expire('notified')
     Cookies.set('notified', MAX_NOTIFICATIONS, {
         expires: Infinity
