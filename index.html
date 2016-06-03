@@ -8,8 +8,12 @@ banner_title: "Learn Japanese"
 {% include site/kana.html %}
 {% include site/kanji.html %}
 {% include site/instructions.html %}
+{% include site/progress.html %}
 {% include site/character.html %}
 {% include site/play.html %}
 {% include site/configuration.html %}
 {% include site/help.html %}
 <script src="scripts/site/learn_japanese.js"></script>
+<script>
+console.log({{ site.kana | jsonify }})
+</script>
