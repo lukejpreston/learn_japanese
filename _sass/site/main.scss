@@ -28,7 +28,7 @@ section {
   background-color: darken($light-second, 10%);
   box-shadow: 0 0 0 10000em rgba(0, 0, 0, 0.7);
   overflow-y: hidden;
-  .tabs, p, .title {
+  .close, p, .title {
     padding: 1rem;
   }
   p, .title {
