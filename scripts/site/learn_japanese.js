@@ -24,13 +24,15 @@ function getLetter() {
     var code = letter.code.replace('&#', '').replace(';', '')
     return Cookies.get(code) !== '1'
   })
-  if(filteredLetters.length === letters.length) letters.forEach(function(letter) {
+  if(filteredLetters.length === letters.length || filteredLetters.length === 0) letters.forEach(function(letter) {
       var code = letter.code.replace('&#', '').replace(';', '')
       Cookies.set(code, 0, {
         expires: Infinity
       })
     })
   else letters = filteredLetters
+
+  console.log(letters.length)
 
   var number = Math.floor(Math.random() * letters.length)
   return letters[number]
