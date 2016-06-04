@@ -14,6 +14,34 @@ url: "http://lukejpreston.github.io/learn_japanese"
 email: "lukejpreston@gmail.com"
 owner: "Luke Preston"
 cookies_message: "We use cookies to help track your progress and improve your leanring experience"
+letters: {
+  consonants: [
+    "h",
+    "k",
+    "p",
+    "b",
+    "g",
+    "s",
+    "z",
+    "d",
+    "t",
+    "n",
+    "m",
+    "y",
+    "r",
+    "w",
+    "v",
+    " "
+  ],
+  vowels: [
+    "a",
+    "i",
+    "u",
+    "e",
+    "o",
+    " "
+  ]
+}
 kana: {
     "hiragana": [
         {

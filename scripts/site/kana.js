@@ -26,3 +26,13 @@ function updateKana() {
 }
 
 updateKana()
+
+var rows = []
+var cols = []
+
+kana.hiragana.forEach(function(letter) {
+  if(rows.indexOf(letter.row) === -1) rows.push(letter.row)
+  if(cols.indexOf(letter.col) === -1) cols.push(letter.col)
+})
+
+console.log(rows, cols)
