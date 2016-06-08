@@ -1,4 +1,4 @@
-<div id="kana" class="panel columns offset-by-one ten" style="display: block;">
+<div id="kana" class="panel columns offset-by-one ten" style="display: none;">
   <div class="columns twelve close">
     <span onclick="panel('kana')" class="button icon icon-cross"><span class="button_breaker">CLOSE</span></span>
   </div>
@@ -13,72 +13,45 @@
       <label for="katakana_filter">KATAKANA</label>
     </div>
   </div>
-  <div id="kana_table"></div>
-    <!-- <div class="row head">
-      <div class="button cell" style="visibility: hidden;">
-        <span>_</span>
-      </div>
-      <div class="button cell">
-        <span>B</span>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col button u-pull-left">
-        <span>B</span>
-      </div>
-      <div class="cell">
-        <div class="char kana" style="display: none;">
-          <span class="stack button">C</span>
-          <span class="stack button">D</span>
-        </div>
-        <div class="char hiragana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-        <div class="char katakana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="char kana" style="display: none;">
-          <span class="stack button">C</span>
-          <span class="stack button">D</span>
-        </div>
-        <div class="char hiragana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-        <div class="char katakana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col button u-pull-left">
-        <span>B</span>
-      </div>
-      <div class="cell">
-        <div class="char kana" style="display: none;">
-          <span class="stack button">C</span>
-          <span class="stack button">D</span>
-        </div>
-        <div class="char hiragana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-        <div class="char katakana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="char kana" style="display: none;">
-          <span class="stack button">C</span>
-          <span class="stack button">D</span>
-        </div>
-        <div class="char hiragana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-        <div class="char katakana" style="display: none;">
-          <span class="button">D</span>
-        </div>
-      </div>
-    </div> -->
+  <div class="table-container">
+    <table id="kana_table">
+      <thead>
+        <th style="visibility: hidden;">_</th>
+        {% for vowel in site.letters.vowels %}
+          {% if vowel == " " %}
+            <th></th>
+          {% else %}
+            <th>{{vowel}}</th>
+          {% endif %}
+        {% endfor %}
+      </thead>
+      <tbody>
+        {% for consonant in site.letters.consonants %}
+        <tr>
+          {% if consonant == " " %}
+            <td style="visibility: hidden;">_</td>
+          {% else %}
+            <td>{{consonant}}</td>
+          {% endif %}
+
+          {% for vowel in site.letters.vowels %}
+            <td>
+            {% for hiragana in site.kana.hiragana %}
+              {% if hiragana.row == consonant and hiragana.col == vowel%}
+                  <button class="hiragana" onclick='talk({{hiragana.code || jsonify}})'>{{hiragana.code}}</button>
+              {% endif %}
+            {% endfor %}
+            {% for katakana in site.kana.katakana %}
+              {% if katakana.row == consonant and katakana.col == vowel%}
+                <button class="katakana" onclick='talk({{katakana.code || jsonify}})'>{{katakana.code}}</button>
+              {% endif %}
+            {% endfor %}
+            </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
 </div>

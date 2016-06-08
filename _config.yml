@@ -16,6 +16,7 @@ owner: "Luke Preston"
 cookies_message: "We use cookies to help track your progress and improve your leanring experience"
 letters: {
   consonants: [
+    " ",
     "h",
     "k",
     "p",
@@ -30,8 +31,7 @@ letters: {
     "y",
     "r",
     "w",
-    "v",
-    " "
+    "v"
   ],
   vowels: [
     "a",

@@ -135,9 +135,13 @@ function reveal(callback) {
   }, 1000)
 }
 
-window.speechSynthesis.getVoices();
+try {
+  window.speechSynthesis.getVoices();
+} catch(e) {
+  console.log('speechSynthesis not supported')
+}
 
-function say() {
+function talk(text) {
   var msg = new SpeechSynthesisUtterance();
   window.speechSynthesis.getVoices();
   var voices = window.speechSynthesis.getVoices();
@@ -145,8 +149,12 @@ function say() {
     return voice.lang === 'ja-JP'
   })
   msg.voice = vs[0]
-  msg.text = String.fromCharCode(letter.code.replace('&#', '').replace(';', ''))
+  msg.text = text
   window.speechSynthesis.speak(msg)
+}
+
+function say() {
+  talk(String.fromCharCode(letter.code.replace('&#', '').replace(';', '')))
 }
 
 function autoSay() {

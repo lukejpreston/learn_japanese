@@ -60,6 +60,24 @@ section {
     float: left;
     margin-left: 4px;
   }
+
+  .table-container {
+    height: 75%;
+    overflow: scroll;
+    position: absolute;
+    bottom: 1em;
+    width: 90%;
+    margin-left: 5%;
+    table {
+      color: $middle-first;
+      th, td {
+        text-align: center;
+        button {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
 }
 
 .configuration div {
