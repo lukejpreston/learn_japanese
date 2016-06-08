@@ -26,4 +26,17 @@ function updateKana() {
   }
 }
 
+function changeKanji(index) {
+  var kanji = dom.query('#kanji_' + index).checked
+  change('kanji_' + index, 'none')
+  if(kanji) {
+    change('kanji_' + index)
+  }
+}
+
+function updateKanji() {
+  for(var i = 1; i <= 6; i++) changeKanji(i)
+}
+
 updateKana()
+updateKanji()

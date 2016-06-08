@@ -2,4 +2,58 @@
   <div class="columns twelve close">
     <span onclick="panel('kanji')" class="button icon icon-cross"><span class="button_breaker">CLOSE</span></span>
   </div>
+  <span class="title">KANA</span>
+  <div class="columns twelve">
+    <span class="filter">KANJI GRADES</span>
+    <div class="filter">
+      <input id="kanji_1" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_1">1</label>
+    </div>
+    <div class="filter">
+      <input id="kanji_2" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_2">2</label>
+    </div>
+    <div class="filter">
+      <input id="kanji_3" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_3">3</label>
+    </div>
+    <div class="filter">
+      <input id="kanji_4" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_4">4</label>
+    </div>
+    <div class="filter">
+      <input id="kanji_5" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_5">5</label>
+    </div>
+    <div class="filter">
+      <input id="kanji_6" onchange="updateKanji()" type="checkbox" checked>
+      <label for="kanji_6">6</label>
+    </div>
+  </div>
+  <div class="table-container">
+    <table>
+      <thead>
+        <th>KANJI</th>
+        <th>ROMANJI</th>
+        <th>TRANSLATION</th>
+        <th>LISTEN</th>
+      </thead>
+      {% for kanji in site.kanji%}
+        <tr class="kanji_{{forloop.index}}">
+          <td>GRADE {{forloop.index}}</td>
+        </tr>
+        {% assign grade = forloop.index %}
+        {% for letter in kanji %}
+          <tr class="kanji_{{grade}}">
+            <td>{{letter.code}}</td>
+            <td>{{letter.romanji}}</td>
+            <td>{{letter.translation}}</td>
+            <td>
+              <span onclick="talk({{letter.code || jsonify}})" class="button column one-third icon icon-volume-medium"></span>
+            </td>
+          </tr>
+        {% endfor %}
+      {% endfor %}
+    </table>
+  </div>
 </div>
