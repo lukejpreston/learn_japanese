@@ -57,3 +57,20 @@ function searchKana(value) {
     })
   }
 }
+
+function searchKanji(value) {
+  dom.queryAll('.kanji_row').forEach(function (el) {
+    var display = value.length > 0 ? 'none' : 'table-row'
+    el.stylise({
+      display: display
+    })
+  })
+
+  dom.queryAll('.kanji_cell')
+    .filter(function(el) {
+      return el.innerHTML.indexOf(value) !== -1
+    })
+    .forEach(function(el) {
+      el.parentElement.style.display = 'table-row'
+    })
+}

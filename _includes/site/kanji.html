@@ -1,8 +1,12 @@
-<div id="kanji" class="panel columns offset-by-one ten" style="display: none;">
+<div id="kanji" class="panel columns offset-by-one ten" style="display: block;">
   <div class="columns twelve close">
-    <span onclick="panel('kanji')" class="button icon icon-cross"><span class="button_breaker">CLOSE</span></span>
+    <span onclick="panel('kanji')" class="u-pull-right button icon icon-cross"><span class="button_breaker">CLOSE</span></span>
   </div>
   <span class="title">KANA</span>
+  <div class="filter">
+    <label for="kanji_search" class="search">SEARCH</label>
+    <input id="kanji_search" class="search" oninput="searchKanji(this.value)" type="text" placeholder="romanji or English">
+  </div>
   <div class="columns twelve">
     <span class="filter">KANJI GRADES</span>
     <div class="filter">
@@ -44,10 +48,10 @@
         </tr>
         {% assign grade = forloop.index %}
         {% for letter in kanji %}
-          <tr class="kanji_{{grade}}">
+          <tr class="kanji_row kanji_{{grade}}">
             <td>{{letter.code}}</td>
-            <td>{{letter.romanji}}</td>
-            <td>{{letter.translation}}</td>
+            <td class="kanji_cell">{{letter.romanji}}</td>
+            <td class="kanji_cell">{{letter.translation}}</td>
             <td>
               <span onclick="talk({{letter.code || jsonify}})" class="button column one-third icon icon-volume-medium"></span>
             </td>
