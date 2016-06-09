@@ -40,3 +40,20 @@ function updateKanji() {
 
 updateKana()
 updateKanji()
+
+function searchKana(value) {
+  dom.queryAll('.kana').forEach(function (el) {
+    var visibility = value.length > 0 ? 'hidden' : 'visible';
+    el.stylise({
+        visibility: visibility
+    })
+  })
+  for(var i = 0; i < value.length; i++) {
+    var char = value[i]
+    dom.queryAll('.kana_' + char).forEach(function(el) {
+      el.stylise({
+        visibility: 'visible'
+      })
+    })
+  }
+}

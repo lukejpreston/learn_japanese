@@ -46,6 +46,10 @@ section {
     display: inline-block;
     color: $middle-first;
     margin-left: 1rem;
+    .search {
+      display: inline-block;
+      margin-right: 1rem;
+    }
   }
 
   .char .stack {
